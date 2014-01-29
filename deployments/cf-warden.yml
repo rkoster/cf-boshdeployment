@@ -1,6 +1,6 @@
 ---
 name: cf-warden
-director_uuid: current
+director_uuid: "PLEASE CHANGE ME"
 
 releases:
   - name: cf-release
