@@ -1,0 +1,20 @@
+---
+name: cf-warden
+director_uuid: current
+
+releases:
+  - name: cf-release
+    version: latest
+    git: https://github.com/cloudfoundry/cf-release.git
+
+templates:
+  - cf-release/cf-deployment.yml
+  - cf-release/cf-jobs.yml
+  - cf-release/cf-properties.yml
+  - cf-release/cf-infrastructure-warden.yml
+  - warden-networks.yml
+  - cf-release/cf-minimal-dev.yml
+
+meta:
+  network:
+    offsets: [ "4", "5", "6", "7" ]
