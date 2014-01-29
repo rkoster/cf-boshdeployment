@@ -3,7 +3,7 @@ name: cf-warden
 director_uuid: current
 
 releases:
-  - name: cf-release
+  - name: cf
     version: latest
     git: https://github.com/cloudfoundry/cf-release.git
 
