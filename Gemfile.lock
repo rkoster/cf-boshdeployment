@@ -1,7 +1,6 @@
 GIT
   remote: git://github.com/rkoster/bosh-manifests.git
-  revision: 8df768c94ea1d4a0623158480b773801f9623ca4
-  ref: refactor-ux
+  revision: e21c46fddf09a3e579cd2d0ae89147fe44a8dee6
   specs:
     bosh-manifests (0.0.1)
       bosh_cli (~> 1.1782.0)
