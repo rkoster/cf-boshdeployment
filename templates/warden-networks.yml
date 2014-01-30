@@ -455,7 +455,7 @@ networks:
     - (( "10.244." meta.network.offsets.[0] ".254"))
   - cloud_properties:
       name: random
-    range: (( "10.244." meta.network.offsets[1] ".0/30"))
+    range: (( "10.244." meta.network.offsets.[1] ".0/30"))
     reserved:
     - (( "10.244." meta.network.offsets.[1] ".1"))
     static: []
