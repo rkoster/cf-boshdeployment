@@ -10,7 +10,7 @@ For example having a `QA` and `production` deployment for which only networking 
 
 ## Installation
 Before you start make sure ruby, bundler and spiff are available on your system.
-Instructions for installing spiff can found (here)[http://spiff.cfapps.io].
+Instructions for installing spiff can found [here](http://spiff.cfapps.io).
 
 ```
 git clone https://github.com/rkoster/cf-boshdeployment.git
