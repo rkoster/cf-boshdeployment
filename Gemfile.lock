@@ -1,28 +1,23 @@
-GIT
-  remote: git://github.com/rkoster/bosh-manifests.git
-  revision: e21c46fddf09a3e579cd2d0ae89147fe44a8dee6
-  specs:
-    bosh-manifests (0.0.1)
-      bosh_cli (~> 1.1782.0)
-      git (~> 1.2.6)
-
 GEM
   remote: https://rubygems.org/
   specs:
-    aws-sdk (1.8.5)
+    aws-sdk (1.32.0)
       json (~> 1.4)
       nokogiri (>= 1.4.4)
       uuidtools (~> 2.1)
-    blobstore_client (1.1782.0)
-      aws-sdk (= 1.8.5)
-      bosh_common (~> 1.1782.0)
+    blobstore_client (1.2200.0)
+      aws-sdk (= 1.32.0)
+      bosh_common (~> 1.2200.0)
       fog (~> 1.14.0)
       httpclient (= 2.2.4)
       multi_json (~> 1.1)
       ruby-atmos-pure (~> 1.0.5)
-    bosh_cli (1.1782.0)
-      blobstore_client (~> 1.1782.0)
-      bosh_common (~> 1.1782.0)
+    bosh-workspace (0.7.0)
+      bosh_cli (>= 1.1722.0)
+      git (~> 1.2.6)
+    bosh_cli (1.2200.0)
+      blobstore_client (~> 1.2200.0)
+      bosh_common (~> 1.2200.0)
       highline (~> 1.6.2)
       httpclient (= 2.2.4)
       json_pure (~> 1.7)
@@ -33,7 +28,7 @@ GEM
       netaddr (~> 1.5.0)
       progressbar (~> 0.9.0)
       terminal-table (~> 1.4.3)
-    bosh_common (1.1782.0)
+    bosh_common (1.2200.0)
     builder (3.2.2)
     excon (0.25.3)
     fog (1.14.0)
@@ -48,18 +43,18 @@ GEM
       ruby-hmac
     formatador (0.2.4)
     git (1.2.6)
-    highline (1.6.20)
+    highline (1.6.21)
     httpclient (2.2.4)
     json (1.8.1)
     json_pure (1.8.1)
     log4r (1.1.10)
-    mime-types (2.1)
+    mime-types (2.2)
     mini_portile (0.5.2)
     minitar (0.5.4)
-    multi_json (1.8.4)
+    multi_json (1.9.0)
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
-    net-ssh (2.7.0)
+    net-ssh (2.8.0)
     net-ssh-gateway (1.1.0)
       net-ssh (>= 1.99.1)
     netaddr (1.5.0)
@@ -77,4 +72,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bosh-manifests!
+  bosh-workspace

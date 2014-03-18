@@ -1,3 +1,4 @@
-/.manifests*
 /.releases*
 /.stubs*
+/.bundle/*.log
+/.deployments*
